@@ -16,6 +16,16 @@ El propósito principal de estos ejercicios es proporcionarte una introducción 
 
 Ten mucho cuidado con los valores sensibles que puedas exponer en tus soluciones. Recuerda que otras personas pueden ver la información de tus entregables y, por lo tanto, acceder a este tipo de información. ¡Siempre trata de mantener la seguridad de tus datos y de los datos de tus clientes!
 
+Recuerda terminar cada prueba que realices con un `terraform destroy` para evitar costes innecesarios. **¡No lo olvides!**
+
+**¡¡¡OBLIGATORIO!!!**
+
+Está terminantemente **PROHIBIDO** introducir secretos (como el del Service Principal) en texto plano. Cuando hablamos de texto plano, nos referimos a cualquier archivo que no esté cifrado.
+
+Si necesitas introducir algún tipo de secreto, haz uso de los secretos de GitHub.
+
+Este tipo de prácticas son las que se esperan en un entorno profesional y es importante que las adquieras desde el principio, puesto que, más allá de los riesgos de seguridad que conllevan para la empresa, también pueden suponer un despido directo.
+
 ## Estructura del Repositorio
 
 Este repositorio está organizado de la siguiente manera:
